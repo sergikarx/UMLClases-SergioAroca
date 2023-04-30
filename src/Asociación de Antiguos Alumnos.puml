@@ -1,28 +1,49 @@
 @startuml
 
-class Miembro_numerario
+class Miembro_numerario{
++String e-mail
+}
 
 class Miembro_junta_directiva
 
-class Conferencia
+class Conferencia {
++Integer max_attendees
+}
 
-class Evento
+class Evento {
+ +date date
+ +String description
+ +void assign(|: Location)
+}
 
 class Reunión_de_la_junta_directiva
 
-class Localizacion
+class Localizacion {
+ +String description
+ +String address
+}
 
-class Persona
+class Persona{
++String name
+}
 
-class AAUOC
+class AAUOC{
+    +void newLocation(|: Location)
+    +void newEvent(e:Event)
+    +void newPerson(p:Person)
+    +void informEvent(e:Event)
+    +void register(m:Member,e:Event)
+}
 Miembro_numerario--|>Persona
 Miembro_junta_directiva--|>Miembro_numerario
 (Miembro_junta_directiva, Conferencia) --|> Evento
+Evento -- Miembro_numerario :attendsTo
+
 Evento --o AAUOC
-Evento -- Localizacion
+Evento -- Localizacion :isLocated in
 Localizacion --o AAUOC
 Persona --o AAUOC
-Reunión_de_la_junta_directiva -- Miembro_junta_directiva
-Conferencia -- Persona
+Reunión_de_la_junta_directiva -- Miembro_junta_directiva :attendsTo
+Conferencia -- Persona :attendsTo
 
 @enduml
