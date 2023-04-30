@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Miembro_numerario {
+
+}
+
+class Miembro_junta_directiva {
+
+}
+
+class Evento {
+
+}
+
+class Conferencia {
+
+}
+
+class Reunión_de_la_junta_directiva {
+
+}
+
+class Localizacion {
+
+}
+
+
+
+@enduml
