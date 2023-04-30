@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17079bcf-aac0-49f6-ba50-8cce08193ca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMLClasesSergioAroc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Asociación de Antiguos Alumnos.puml" afterDir="false" />
+    <list default="true" id="17079bcf-aac0-49f6-ba50-8cce08193ca6" name="Changes" comment="1)Identificación de clases">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Asociación de Antiguos Alumnos.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Asociación de Antiguos Alumnos.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682883134625</updated>
     </task>
+    <task id="LOCAL-00001" summary="1)Identificación de clases">
+      <created>1682884811012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682884811012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1)Identificación de clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="1)Identificación de clases" />
   </component>
 </project>

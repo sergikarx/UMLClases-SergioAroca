@@ -1,30 +1,28 @@
 @startuml
-'https://plantuml.com/sequence-diagram
 
-class Miembro_numerario {
+class Miembro_numerario
 
-}
+class Miembro_junta_directiva
 
-class Miembro_junta_directiva {
+class Conferencia
 
-}
+class Evento
 
-class Evento {
+class Reunión_de_la_junta_directiva
 
-}
+class Localizacion
 
-class Conferencia {
+class Persona
 
-}
-
-class Reunión_de_la_junta_directiva {
-
-}
-
-class Localizacion {
-
-}
-
-
+class AAUOC
+Miembro_numerario--|>Persona
+Miembro_junta_directiva--|>Miembro_numerario
+(Miembro_junta_directiva, Conferencia) --|> Evento
+Evento --o AAUOC
+Evento -- Localizacion
+Localizacion --o AAUOC
+Persona --o AAUOC
+Reunión_de_la_junta_directiva -- Miembro_junta_directiva
+Conferencia -- Persona
 
 @enduml
