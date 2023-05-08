@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17079bcf-aac0-49f6-ba50-8cce08193ca6" name="Changes" comment="4) Inclusión de la cardinalidad y navegabilidad de las relaciones">
+    <list default="true" id="17079bcf-aac0-49f6-ba50-8cce08193ca6" name="Changes" comment="Commit para añadir el pdf al repositorio con la memoria.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Asociación de Antiguos Alumnos.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Asociación de Antiguos Alumnos.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682890825271</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit para añadir el pdf al repositorio con la memoria.">
+      <created>1682891356375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682891356375</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit para añadir el pdf al repositorio con la memoria.">
+      <created>1682891364768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682891364768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +117,7 @@
     <MESSAGE value="2) Creación del modelo de datos" />
     <MESSAGE value="3) Inclusión de atributos y métodos" />
     <MESSAGE value="4) Inclusión de la cardinalidad y navegabilidad de las relaciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="4) Inclusión de la cardinalidad y navegabilidad de las relaciones" />
+    <MESSAGE value="Commit para añadir el pdf al repositorio con la memoria." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit para añadir el pdf al repositorio con la memoria." />
   </component>
 </project>
